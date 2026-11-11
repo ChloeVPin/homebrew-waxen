@@ -5,7 +5,6 @@ class Waxen < Formula
   sha256 "c9106939672ae2038934e6db6d6461ccfa63c1030048b4cd43ab3d19fe02ae36"
   license "MIT"
 
-  depends_on :macos
   depends_on macos: :ventura
 
   def install
